@@ -1,0 +1,6 @@
+package com.example.javaNorthwind;
+
+import org.springframework.data.repository.CrudRepository;
+public interface InventoryTransactionsRepository extends CrudRepository<InventoryTransactions, Integer> {
+
+}
